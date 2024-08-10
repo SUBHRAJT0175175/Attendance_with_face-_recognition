@@ -4,6 +4,7 @@
 
 #The program captures an image using the webcam, recognizes the person in the image by comparing it 
 to a set of known faces, and then logs the attendance in an Excel file.
+
 import cv2
 import face_recognition
 import pandas as pd
@@ -79,3 +80,6 @@ def main():
 if __name__ == "__main__":
     main()
 
+
+   
+        
